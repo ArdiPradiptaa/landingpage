@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>About Us</h2>
+        <p>
+          Discover more about our story, vision, and goals. We are committed to bringing the best experience to our community.
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./1.jpeg" alt="About Us" />
+        </article>
+        <article class="about">
+          <!-- Button container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">History</button>
+            <button class="tab-btn" data-id="vision">Vision</button>
+            <button class="tab-btn" data-id="goals">Goals</button>
+          </div>
+          <div class="about-content">
+            <!-- Content for History tab -->
+            <div class="content active" id="history">
+              <h4>Our History</h4>
+              <p>
+                We began with a simple idea and a passion to create something meaningful. Through hard work and dedication, we have grown into a community-focused organization with a history of innovation and integrity.
+              </p>
+            </div>
+            <!-- Content for Vision tab -->
+            <div class="content" id="vision">
+              <h4>Our Vision</h4>
+              <p>
+                We envision a world where people come together to share knowledge, create value, and make a lasting impact. By fostering a culture of learning and growth, we hope to inspire future generations.
+              </p>
+              <ul>
+                <li>Innovative solutions</li>
+                <li>Community engagement</li>
+                <li>Sustainable growth</li>
+              </ul>
+            </div>
+            <!-- Content for Goals tab -->
+            <div class="content" id="goals">
+              <h4>Our Goals</h4>
+              <p>
+                Our goals are driven by our desire to create a positive impact. From expanding our reach to enhancing our services, we are constantly working to achieve a future where everyone benefits.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
